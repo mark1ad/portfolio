@@ -1,0 +1,52 @@
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #33ccff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  margin-top: 15vh;
+  /*margin-bottom: 4vh;*/
+  font-size: 2.2em;
+  border-bottom: 2px solid lightgray;
+  width: 80vw;
+  padding-bottom: 4vh;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  /*margin-top: 4vh;*/
+  padding: 4vh 0;
+  font-size: 1.8em;
+  width: 80vw;
+  border-bottom: 2px solid lightgray;
+}
+
+.menulink {
+  display: flex;
+
+}
