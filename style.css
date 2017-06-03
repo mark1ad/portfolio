@@ -1,5 +1,6 @@
 body {
     font-family: 'Crimson Text', serif;
+    background-color:  	 	#F5F5F5;
 }
 
 a {
@@ -47,4 +48,9 @@ a:hover {
 .menulink {
   display: flex;
 
+}
+
+#projects {
+  padding: 7vh 0;
+  font-size: 1.6em;
 }
