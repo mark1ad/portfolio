@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Crimson Text', serif;
     background-color:  	 	#F5F5F5;
+    margin-bottom: 6vh;
 }
 
 a {
@@ -29,31 +34,69 @@ a:hover {
 .header {
   display: flex;
   justify-content: center;
-  margin-top: 15vh;
-  font-size: 32pt;
+  margin-top: 5vh;
+  font-size: 2.8rem;
   border-bottom: 2px solid lightgray;
   width: 100%;
-  padding-bottom: 6vh;
+  padding-bottom: 4vh;
 }
 
+
+@media only screen and (min-width: 500px) {
+  .header {
+    margin-top: 10vh;
+    font-size: 2.8rem;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 6vh;
+  }
+}
+
+
 .projhead {
-  margin-top: 5vh;
+  margin-top: 2.5vh;
   margin-bottom: 1vh;
   font-size: 24pt;
   border-top: 2px solid lightgrey;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 4vh;
+  padding-top: 2vh;
+}
+
+@media only screen and (min-width: 500px) {
+  .projhead {
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    font-size: 24pt;
+    border-top: 2px solid lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+  }
 }
 
 #menu {
   display: flex;
   justify-content: space-around;
-  padding: 4vh 0;
-  font-size: 24pt;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh 0;
+  font-size: 1.9rem;
   width: 100%;
   border-bottom: 2px solid lightgray;
+}
+
+@media only screen and (min-width: 500px) {
+  #menu {
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    flex-direction: row;
+    padding: 4vh 0;
+    font-size: 24pt;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+  }
 }
 
 .menulink {
@@ -70,10 +113,23 @@ a:hover {
 }
 
 .desc {
+  margin: 1vh 3vw 0 3vw;
+  font-size: 14pt;
+}
+
+.desc {
   margin: 15px 3vw 0 3vw;
   font-size: 14pt;
 }
 
-.projlink {
-  margin-top: 2vh;
+@media only screen and (min-width: 500px) {
+  .projlink {
+    margin-top: 0.8vh;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .projlink {
+    margin-top: 2vh;
+  }
 }
