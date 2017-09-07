@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import './App.css';
+import Project from './js/Project';
 
 class App extends Component {
   header() {
@@ -26,54 +27,43 @@ class App extends Component {
 
   projects() {
     return (
-    <div className="projects">
-      <div className="inner-projects">
+      <div className="projects">
+        <div className="inner-projects">
 
-        <div className="project">
-          <div className="projlink">
-            <a href="https://art-from-light.herokuapp.com/" target="_blank">Art From Light</a>
-          </div>
-
-          <div className="desc">
-            A site where photographers can share their work.
+          <Project title="Art From Light" href="https://art-from-light.herokuapp.com/">
+            <p>
+              A site where photographers can share their work.
+            </p>
             <p>
               Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS. Photos are stored on <a href="cloudinary.com" target="_blank">Cloudinary</a>.
               <a href="https://github.com/mark1ad/art_from_light_frontend" target="_blank">Client GitHub repository</a> and <a href="https://github.com/mark1ad/art_from_light_api" target="_blank">Server GitHub respository</a>.
             </p>
-          </div>
-        </div>
+          </ Project>
 
-        <div className="project">
-          <div className="projlink">
-            <a href="https://open-highway.herokuapp.com/"  target="_blank">Open Highway</a>
-          </div>
-
-          <div className="desc">
-            Plan the ultimate roadtrip!
+          <Project title="Open Highway" href="https://open-highway.herokuapp.com/">
+            <p>
+              Plan the ultimate roadtrip!
+            </p>
 
             <p>
               Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS.
               <a href="https://github.com/mark1ad/roadtrip_app_frontend" target="_blank">Client GitHub respository</a> and <a href="https://github.com/mark1ad/roadtrip_app_api" target="_blank">Server GitHub respository</a>.
             </p>
-          </div>
+          </Project>
+
+          <Project title="Civilized Coffee" href="https://infinite-shelf-28534.herokuapp.com/">
+            <p>
+              Manage your own chain of coffee shops.
+            </p>
+            <p>
+              Node.js, Mongoose, Mongo, Express, EJS and Bootstrap.
+              <a href="https://github.com/mark1ad/coffeeshop" target="_blank">GitHub repository</a>.
+            </p>
+          </Project>
+
         </div>
-
-                  <div className="project">
-                    <div className="projlink">
-                      <a href="https://infinite-shelf-28534.herokuapp.com/"  target="_blank">Civilized Coffee</a>
-                    </div>
-
-                    <div className="desc">
-                      Manage your own chain of coffee shops.
-                      <p>
-                        Node.js, Mongoose, Mongo, Express, EJS and Bootstrap.
-                        <a href="https://github.com/mark1ad/coffeeshop" target="_blank">GitHub repository</a>.
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>)
+      </div>
+  )
 
   }
 
