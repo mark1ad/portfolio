@@ -92,10 +92,6 @@ a:hover {
   }
 }
 
-.menulink {
-  display: flex;
-}
-
 .projects {
   display: flex;
   justify-content: center;

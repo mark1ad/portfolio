@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import './App.css';
 import Project from './js/Project';
+import MenuLink from './js/MenuLink';
 
 class App extends Component {
   header() {
@@ -10,17 +11,17 @@ class App extends Component {
   menu() {
     return (
       <div id="menu">
-        <div className="menulink">
-          <a href="resume.pdf" target="_blank">Resume</a>
-        </div>
+        <MenuLink href="resume.pdf">
+          Resume
+        </MenuLink>
 
-        <div className="menulink">
-          <a href="https://www.linkedin.com/in/markdemay/" target="_blank">LinkedIn</a>
-        </div>
+        <MenuLink href="https://www.linkedin.com/in/markdemay/" >
+          LinkedIn
+        </MenuLink>
 
-        <div className="menulink">
-          <a href="https://github.com/mark1ad" target="_blank">GitHub</a>
-        </div>
+        <MenuLink href="https://github.com/mark1ad">
+          GitHub
+        </MenuLink>
       </div>
     )
   }
