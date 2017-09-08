@@ -11,7 +11,7 @@ class App extends Component {
   menu() {
     return (
       <div id="menu">
-        <MenuLink href="resume.pdf">
+        <MenuLink href="/src/media/resume.pdf">
           Resume
         </MenuLink>
 
