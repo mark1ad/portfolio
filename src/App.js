@@ -2,12 +2,9 @@ import React, { Component } from 'react';
 // import './App.css';
 import Project from './js/Project';
 import MenuLink from './js/MenuLink';
+import Header from './js/Header';
 
 class App extends Component {
-  header() {
-    return <div className="header">Mark De May</div>
-  }
-
   menu() {
     return (
       <div id="menu">
@@ -36,8 +33,9 @@ class App extends Component {
               A site where photographers can share their work.
             </p>
             <p>
-              Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS. Photos are stored on <a href="cloudinary.com" target="_blank">Cloudinary</a>.
-              <a href="https://github.com/mark1ad/art_from_light_frontend" target="_blank">Client GitHub repository</a> and <a href="https://github.com/mark1ad/art_from_light_api" target="_blank">Server GitHub respository</a>.
+              Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS. Photos are stored on
+               { /* <a href="http://cloudinary.com" target="_blank"> Cloudinary</a>. */ }
+                { /* <a href="https://github.com/mark1ad/art_from_light_frontend" target="_blank">Client GitHub repository</a> and <a href="https://github.com/mark1ad/art_from_light_api" target="_blank">Server GitHub respository</a>. */ }
             </p>
           </ Project>
 
@@ -48,7 +46,7 @@ class App extends Component {
 
             <p>
               Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS.
-              <a href="https://github.com/mark1ad/roadtrip_app_frontend" target="_blank">Client GitHub respository</a> and <a href="https://github.com/mark1ad/roadtrip_app_api" target="_blank">Server GitHub respository</a>.
+              { /* <a href="https://github.com/mark1ad/roadtrip_app_frontend" target="_blank">Client GitHub respository</a> and <a href="https://github.com/mark1ad/roadtrip_app_api" target="_blank">Server GitHub respository</a>. */ }
             </p>
           </Project>
 
@@ -58,7 +56,7 @@ class App extends Component {
             </p>
             <p>
               Node.js, Mongoose, Mongo, Express, EJS and Bootstrap.
-              <a href="https://github.com/mark1ad/coffeeshop" target="_blank">GitHub repository</a>.
+              { /* <a href="https://github.com/mark1ad/coffeeshop" target="_blank">GitHub repository</a>. */ }
             </p>
           </Project>
 
@@ -71,9 +69,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <div className="container">
           <div className="inner-container">
-            {this.header()}
             {this.menu()}
 
             <div className="desc">
@@ -84,7 +82,7 @@ class App extends Component {
               Projects
             </div>
 
-            {this.projects()}
+            { this.projects() }
 
           </div>
         </div>

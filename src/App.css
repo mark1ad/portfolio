@@ -9,10 +9,10 @@ a:hover {
   cursor: pointer;
 }
 
-.container {
+/*.container {
   display: flex;
   justify-content: center;
-}
+}*/
 
 .inner-container {
   display: flex;
