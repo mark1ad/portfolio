@@ -3,22 +3,24 @@
   background-size: cover;
   color: white;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-}
+  font-family: 'Oswald', sans-serif; }
 
 /* TODO: Remove? Move somewhere else? */
-
 .jumbotron .desc {
-  /*margin: 15px 3vw 0 3vw;*/
   text-align: justify;
   font-size: 1.2rem;
   font-weight: normal;
   max-width: 80%;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 .jumbotron .lead {
   font-size: 2.1rem;
-  font-weight: normal;
-}
+  font-weight: normal; }
+
+@media only screen and (min-width: 768px) {
+  .jumbotron .desc {
+    font-size: 1.2rem;
+    max-width: 80%; } }
+
+/*# sourceMappingURL=style.css.map */

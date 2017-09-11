@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import './App.css';
+import './css/style.css';
 import Project from './js/Project';
 import MenuLink from './js/MenuLink';
 import Header from './js/Header';
