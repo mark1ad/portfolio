@@ -1,16 +1,17 @@
+$header-font-size: 1.2rem;
+$header-text-color: white;
+
 .jumbotron {
   background-image: url(./../images/header.png);
   background-size: cover;
-  color: white;
+  color: $header-text-color;
   text-align: center;
   font-family: 'Oswald', sans-serif;
 }
 
-/* TODO: Remove? Move somewhere else? */
-
 .jumbotron .desc {
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: $header-font-size;
   font-weight: normal;
   max-width: 80%;
   margin-left: auto;
@@ -22,9 +23,26 @@
   font-weight: normal;
 }
 
+.jumbotron .navbar-nav {
+  display: none;
+}
+
+.jumbotron .nav-link {
+  font-size: $header-font-size;
+  color: $header-text-color;
+}
+
+.jumbotron .nav-link:hover {
+  color: #007bff;
+}
+
 @media only screen and (min-width: 768px) {
   .jumbotron .desc  {
-    font-size: 1.2rem;
+    font-size: $header-font-size;
     max-width: 80%;
+  }
+
+  .jumbotron .navbar-nav {
+    display: inherit;
   }
 }

@@ -15,18 +15,18 @@ const Header = (props) => {
         </p>
       </div>
 
-      <nav className="navbar navbar-expand navbar-light bg-light">
+      <nav className="navbar navbar-expand">
 
-        <div className="container">
-          <ul className="navbar-nav mr-auto">
+        <div className="navbar-collapse justify-content-md-center">
+          <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="">Centered nav only <span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="https://www.linkedin.com/in/markdemay/">LinkedIn</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">Link</a>
+              <a className="nav-link" href="https://github.com/mark1ad">GitHub</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">Disabled</a>
+              <a className="nav-link" href="/src/media/resume.pdf">Resume</a>
             </li>
 
           </ul>
