@@ -4,7 +4,7 @@ const Header = (props) => {
   return (
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
-        <h1 className="display-3">Mark De May</h1>
+        <h1 className="">Mark De May</h1>
 
         <p className="lead">
           Full Stack Web Developer
@@ -17,8 +17,8 @@ const Header = (props) => {
 
       <nav className="navbar navbar-expand">
 
-        <div className="navbar-collapse justify-content-md-center">
-          <ul className="navbar-nav">
+        <div className="collapse navbar-collapse justify-content-md-center">
+          <ul className="navbar-lg navbar-nav">
             <li className="nav-item">
               <a className="nav-link" href="https://www.linkedin.com/in/markdemay/">LinkedIn</a>
             </li>

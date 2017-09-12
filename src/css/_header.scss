@@ -9,6 +9,10 @@ $header-text-color: white;
   font-family: 'Oswald', sans-serif;
 }
 
+.jumbotron h1 {
+  font-size: 3rem;
+}
+
 .jumbotron .desc {
   text-align: justify;
   font-size: $header-font-size;
@@ -23,7 +27,7 @@ $header-text-color: white;
   font-weight: normal;
 }
 
-.jumbotron .navbar-nav {
+.jumbotron .navbar-lg {
   display: none;
 }
 
@@ -37,12 +41,15 @@ $header-text-color: white;
 }
 
 @media only screen and (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
   .jumbotron .desc  {
     font-size: $header-font-size;
     max-width: 80%;
   }
 
-  .jumbotron .navbar-nav {
+  .jumbotron .navbar-lg {
     display: inherit;
   }
 }

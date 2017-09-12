@@ -5,6 +5,9 @@
   text-align: center;
   font-family: 'Oswald', sans-serif; }
 
+.jumbotron h1 {
+  font-size: 3rem; }
+
 .jumbotron .desc {
   text-align: justify;
   font-size: 1.2rem;
@@ -17,7 +20,7 @@
   font-size: 2.1rem;
   font-weight: normal; }
 
-.jumbotron .navbar-nav {
+.jumbotron .navbar-lg {
   display: none; }
 
 .jumbotron .nav-link {
@@ -28,11 +31,14 @@
   color: #007bff; }
 
 @media only screen and (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 4rem; }
+
   .jumbotron .desc {
     font-size: 1.2rem;
     max-width: 80%; }
 
-  .jumbotron .navbar-nav {
+  .jumbotron .navbar-lg {
     display: inherit; } }
 
 /*# sourceMappingURL=style.css.map */
