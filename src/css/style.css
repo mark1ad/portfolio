@@ -20,25 +20,29 @@
   font-size: 2.1rem;
   font-weight: normal; }
 
-.jumbotron .navbar-lg {
-  display: none; }
-
-.jumbotron .nav-link {
-  font-size: 1.2rem;
-  color: white; }
-
-.jumbotron .nav-link:hover {
-  color: #007bff; }
-
 @media only screen and (min-width: 768px) {
   .jumbotron h1 {
     font-size: 4rem; }
 
   .jumbotron .desc {
     font-size: 1.2rem;
-    max-width: 80%; }
+    max-width: 80%; } }
+.menu .navbar-sm {
+  display: inherit; }
 
-  .jumbotron .navbar-lg {
-    display: inherit; } }
+.menu .nav-link {
+  font-size: 1.2rem;
+  color: white; }
+
+.menu .span {
+  font-size: 1.2rem;
+  color: white; }
+
+.menu .nav-link:hover {
+  color: #007bff; }
+
+@media only screen and (min-width: 768px) {
+  .menu .navbar-sm {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

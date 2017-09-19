@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Menu from './Menu';
+
 const Header = (props) => {
   return (
     <div className="jumbotron jumbotron-fluid">
@@ -15,24 +17,7 @@ const Header = (props) => {
         </p>
       </div>
 
-      <nav className="navbar navbar-expand">
-
-        <div className="collapse navbar-collapse justify-content-md-center">
-          <ul className="navbar-lg navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="https://www.linkedin.com/in/markdemay/">LinkedIn</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://github.com/mark1ad">GitHub</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/src/media/resume.pdf">Resume</a>
-            </li>
-
-          </ul>
-        </div>
-      </nav>
-
+      <Menu />
     </div>
   )
 }

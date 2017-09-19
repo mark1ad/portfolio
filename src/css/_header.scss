@@ -27,29 +27,12 @@ $header-text-color: white;
   font-weight: normal;
 }
 
-.jumbotron .navbar-lg {
-  display: none;
-}
-
-.jumbotron .nav-link {
-  font-size: $header-font-size;
-  color: $header-text-color;
-}
-
-.jumbotron .nav-link:hover {
-  color: #007bff;
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $md-min-width) {
   .jumbotron h1 {
     font-size: 4rem;
   }
   .jumbotron .desc  {
     font-size: $header-font-size;
     max-width: 80%;
-  }
-
-  .jumbotron .navbar-lg {
-    display: inherit;
   }
 }

@@ -1,28 +1,9 @@
 import React, { Component } from 'react';
-// import './App.css';
 import './css/style.css';
 import Project from './js/Project';
-import MenuLink from './js/MenuLink';
 import Header from './js/Header';
 
 class App extends Component {
-  menu() {
-    return (
-      <div id="menu">
-        <MenuLink href="/src/media/resume.pdf">
-          Resume
-        </MenuLink>
-
-        <MenuLink href="https://www.linkedin.com/in/markdemay/" >
-          LinkedIn
-        </MenuLink>
-
-        <MenuLink href="https://github.com/mark1ad">
-          GitHub
-        </MenuLink>
-      </div>
-    )
-  }
 
   projects() {
     return (
@@ -71,9 +52,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+
         <div className="container">
           <div className="inner-container">
-            {this.menu()}
 
             <div className="desc">
               During my career as a software engineer I&rsquo;ve worked on projects for IC layout design, GIS applications for utility companies, and full stack web development. My skills include Ruby on Rails, JavaScript, SQL, CSS/SASS, HTML5, AngularJS, C#, and .Net.
