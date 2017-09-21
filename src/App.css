@@ -1,4 +1,4 @@
-
+/*
 a {
   text-decoration: none;
   color: black;
@@ -9,10 +9,10 @@ a:hover {
   cursor: pointer;
 }
 
-/*.container {
+.container {
   display: flex;
   justify-content: center;
-}*/
+}
 
 .inner-container {
   display: flex;
@@ -84,7 +84,7 @@ a:hover {
   #menu {
     /*display: flex;*/
     /*justify-content: space-around;*/
-    flex-direction: row;
+/*    flex-direction: row;
     padding: 4vh 0;
     font-size: 24pt;
     width: 100%;
@@ -115,4 +115,4 @@ a:hover {
 .desc {
   margin: 15px 3vw 0 3vw;
   font-size: 14pt;
-}
+}*/

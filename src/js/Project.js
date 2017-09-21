@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import './../css/Project.css';
 
 class Project extends Component {
   render() {
     return (
-      <div className="project">
-        <div className="projlink">
+      <div>
+        <div className="projLink">
           <a href={this.props.href} target="_blank">{this.props.title}</a>
         </div>
-        <div className="desc">
+        <div className="projDesc">
           {this.props.children}
         </div>
       </div>

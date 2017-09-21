@@ -1,3 +1,12 @@
+.projects {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+.row {
+  margin-top: 2vh; }
+
 .jumbotron {
   background-image: url(./../images/header.png);
   background-size: cover;
@@ -44,5 +53,32 @@
 @media only screen and (min-width: 768px) {
   .menu .navbar-sm {
     display: none; } }
+.projHead {
+  text-align: center; }
+
+.projLink {
+  font-size: 1.1rem;
+  margin-top: 0.8vh;
+  margin-bottom: .6vh;
+  text-align: center; }
+
+a {
+  color: black; }
+
+a:hover {
+  color: #33ccff;
+  cursor: pointer;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) {
+  .projLink {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-size: 1.5rem; } }
+.projDesc {
+  font-weight: normal;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=style.css.map */
