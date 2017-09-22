@@ -21,14 +21,16 @@ const Menu = (props) => {
       <div className={divClasses} id="menuID">
         <ul className={ulClasses}>
           <li className="nav-item">
-            <a className="nav-link" href="https://www.linkedin.com/in/markdemay/">LinkedIn</a>
+            <a className="nav-link" href="https://www.linkedin.com/in/markdemay/"
+            target="_blank"  rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://github.com/mark1ad">GitHub</a>
+            <a className="nav-link" href="https://github.com/mark1ad"
+            target="_blank"  rel="noopener noreferrer">GitHub</a>
           </li>
-          <li className="nav-item">
+          { /* <li className="nav-item">
             <a className="nav-link" href="/src/media/resume.pdf">Resume</a>
-          </li>
+          </li> */ }
 
         </ul>
       </div>
