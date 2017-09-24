@@ -2,10 +2,17 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 class Project extends Component {
-  render() {
+  render(props) {
+    let textDiv = "col-md-5";
+    let imgDiv = "projImageDiv col-md-7";
+    if (this.props.imgleft) {
+      textDiv += " order-md-2";
+      imgDiv += " order-md-1";
+    }
+
     return (
-      <div className='row'>
-        <div className="col-md-5">
+      <div className='row featurette'>
+        <div className={textDiv}>
           <div className="projLink">
             <a href={this.props.href} target="_blank"  rel="noopener noreferrer">{this.props.title}</a>
           </div>
@@ -15,9 +22,9 @@ class Project extends Component {
           </div>
         </div>
 
-        <div className="col-md-7">
+        <div className={imgDiv}>
           <a href={this.props.href} target="_blank"  rel="noopener noreferrer">
-            <img src={this.props.src} alt={this.props.alt}/>
+            <img className="projImage" src={this.props.src} alt={this.props.alt}/>
           </a>
         </div>
       </div>

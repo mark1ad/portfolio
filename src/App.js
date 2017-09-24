@@ -8,6 +8,9 @@ class App extends Component {
   projects() {
     return (
       <div className="projects">
+
+        <hr className="featurette-divider"/>
+
         <Project title="Art From Light"
           href="https://art-from-light.herokuapp.com/"
           src={require("./images/art-from-light.png")}
@@ -22,10 +25,13 @@ class App extends Component {
           </p>
         </ Project>
 
+        <hr className="featurette-divider"/>
+
         <Project title="Open Highway"
           href="https://open-highway.herokuapp.com/"
           src={require("./images/open-highway.png")}
-          alt="Open Highway Website">
+          alt="Open Highway Website"
+          imgleft>
 
           <p>
             Plan the ultimate roadtrip!
@@ -36,6 +42,8 @@ class App extends Component {
             <a href="https://github.com/mark1ad/roadtrip_app_frontend" target="_blank" rel="noopener noreferrer">Client GitHub respository</a> and <a href="https://github.com/mark1ad/roadtrip_app_api" target="_blank" rel="noopener noreferrer">Server GitHub respository</a>.
           </p>
         </Project>
+
+        <hr className="featurette-divider"/>
 
         <Project title="Civilized Coffee"
           href="https://infinite-shelf-28534.herokuapp.com/"
@@ -62,6 +70,18 @@ class App extends Component {
           <h2 className="projHead">Projects</h2>
           { this.projects() }
         </div>
+
+        <footer>
+          <p>
+            &copy; 2017 Mark De May <a href="https://www.linkedin.com/in/markdemay/"
+            target="_blank"  rel="noopener noreferrer">
+              <img src={require("./images/In-2C-21px-R.png")} alt=""/>
+            </a> <a href="https://github.com/mark1ad"
+            target="_blank"  rel="noopener noreferrer">
+              <img src={require("./images/GitHub-Mark-Light-32px.png")} alt=""/>
+            </a>
+          </p>
+        </footer>
       </div>
     );
   }

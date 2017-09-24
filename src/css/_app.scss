@@ -16,3 +16,25 @@ img {
 .row {
   margin-top: 2vh;
 }
+
+footer {
+  padding: 15px 20px;
+  color: #bbb;
+  background-color: black;
+  font-size: .85rem;
+}
+
+@media only screen and (min-width: $md-min-width) {
+  footer {
+    padding: 15px 40px;
+  }
+}
+
+footer p {
+  margin: 0;
+}
+
+footer img {
+  width: auto;
+  margin-left: 12px;
+}
