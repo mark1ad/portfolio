@@ -28,6 +28,9 @@ const Menu = (props) => {
             <a className="nav-link" href="https://github.com/mark1ad"
             target="_blank"  rel="noopener noreferrer">GitHub</a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="mailto:mark@markdemay.com">Email</a>
+          </li>
           { /* <li className="nav-item">
             <a className="nav-link" href="/src/media/resume.pdf">Resume</a>
           </li> */ }
