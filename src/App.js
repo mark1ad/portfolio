@@ -17,7 +17,10 @@ class App extends Component {
           alt="Art From Light Website">
 
           <p>
-            A site where photographers can share their work.
+            Let your inner photographer out and share your work. Upload and organize your photos into collections.
+          </p>
+          <p>
+            Visitors can view work by all photographers or visit a single photographer&lsquo;s page to see just their photos.
           </p>
           <p>
             Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS. Photos are stored on <a href="http://cloudinary.com" target="_blank" rel="noopener noreferrer">Cloudinary</a>
@@ -34,7 +37,7 @@ class App extends Component {
           imgleft>
 
           <p>
-            Plan the ultimate roadtrip!
+            Want to visit all of the states? How about all the museums in your town? Open Highway lets you plan the ultimate road trip!
           </p>
 
           <p>
@@ -51,7 +54,7 @@ class App extends Component {
           alt="Open Highway Website">
 
           <p>
-            Manage your own chain of coffee shops.
+            Become part of the Civilized Coffee chain and become the sophisticated owner of a coffee shop. Create your own specialized drinks. Schedule live music and other events.
           </p>
           <p>
             Node.js, Mongoose, Mongo, Express, EJS and Bootstrap. <a href="https://github.com/mark1ad/coffeeshop" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
