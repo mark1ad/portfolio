@@ -23,35 +23,9 @@ footer img {
   width: auto;
   margin-left: 12px; }
 
-.jumbotron {
-  background-image: url(./../images/header.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
-  font-family: 'Oswald', sans-serif; }
+.my-header {
+  text-align: right; }
 
-.jumbotron h1 {
-  font-size: 3rem; }
-
-.jumbotron .desc {
-  text-align: justify;
-  font-size: 1.2rem;
-  font-weight: normal;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
-
-.jumbotron .lead {
-  font-size: 2.1rem;
-  font-weight: normal; }
-
-@media only screen and (min-width: 768px) {
-  .jumbotron h1 {
-    font-size: 4rem; }
-
-  .jumbotron .desc {
-    font-size: 1.2rem;
-    max-width: 80%; } }
 #home {
   background-image: url(./../images/home-bg.jpg);
   background-size: cover;
@@ -64,23 +38,6 @@ footer img {
 #home-text {
   padding-top: 7vh; }
 
-.menu .navbar-sm {
-  display: inherit; }
-
-.menu .nav-link {
-  font-size: 1.2rem;
-  color: white; }
-
-.menu .span {
-  font-size: 1.2rem;
-  color: white; }
-
-.menu .nav-link:hover {
-  color: #007bff; }
-
-@media only screen and (min-width: 768px) {
-  .menu .navbar-sm {
-    display: none; } }
 .projHead {
   text-align: center; }
 

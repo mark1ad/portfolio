@@ -1,23 +1,36 @@
 import React from 'react';
 
-import Menu from './Menu';
-
 const Header = (props) => {
   return (
-    <div className="jumbotron jumbotron-fluid">
-      <div className="container">
-        <h1 className="">Mark De May</h1>
+    <div className="my-header">
+      <nav className="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <button className="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-        <p className="lead">
-          Full Stack Web Developer
-        </p>
-
-        <p className="desc">
-          During my career as a software engineer I&rsquo;ve worked on projects for IC layout design, GIS applications for utility companies, and full stack web development. My skills include Ruby on Rails, JavaScript, SQL, CSS/SASS, HTML5, AngularJS, C#, and .Net.
-        </p>
-      </div>
-
-      <Menu />
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="#home">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   )
 }
