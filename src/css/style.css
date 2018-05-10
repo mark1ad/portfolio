@@ -52,6 +52,12 @@ footer img {
   .jumbotron .desc {
     font-size: 1.2rem;
     max-width: 80%; } }
+#home {
+  background-image: url(./../images/home-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
 .menu .navbar-sm {
   display: inherit; }
 
