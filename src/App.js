@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './css/style.css';
-import Project from './js/Project';
-import Header from './js/Header';
+import Home from './Components/Home';
+import Project from './Components/Project';
+// import Header from './Components/Header';
 
 class App extends Component {
 
@@ -67,12 +68,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Home/>
 
-        <div className="container">
+        <main>
           <h2 className="projHead">Projects</h2>
           { this.projects() }
-        </div>
+        </main>
 
         <footer>
           <p>
