@@ -30,7 +30,7 @@ footer img {
 .section {
   padding-top: 56px; }
 
-.inner-section {
+.section-inner {
   padding-top: 7vh; }
 
 .my-header {
@@ -95,5 +95,10 @@ a:hover {
 
 .skill-icon {
   font-size: 4rem; }
+
+.about-inner {
+  max-width: 950px;
+  padding-left: 60px;
+  padding-right: 60px; }
 
 /*# sourceMappingURL=style.css.map */
