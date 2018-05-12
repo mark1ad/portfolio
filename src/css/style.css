@@ -11,6 +11,19 @@ img {
 .row {
   margin-top: 2vh; }
 
+.section {
+  padding-top: 56px; }
+
+.section-inner {
+  padding-top: 7vh; }
+
+.section-inner h1 {
+  text-align: center;
+  padding-bottom: 10px; }
+
+.my-header {
+  text-align: right; }
+
 footer {
   padding: 15px 20px;
   color: #bbb;
@@ -26,19 +39,6 @@ footer p {
 footer img {
   width: auto;
   margin-left: 12px; }
-
-.section {
-  padding-top: 56px; }
-
-.section-inner {
-  padding-top: 7vh; }
-
-.section-inner h1 {
-  text-align: center;
-  padding-bottom: 10px; }
-
-.my-header {
-  text-align: right; }
 
 #home {
   background-image: url(./../images/home-bg.jpg);
