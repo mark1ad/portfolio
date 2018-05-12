@@ -33,6 +33,10 @@ footer img {
 .section-inner {
   padding-top: 7vh; }
 
+.section-inner h1 {
+  text-align: center;
+  padding-bottom: 10px; }
+
 .my-header {
   text-align: right; }
 
