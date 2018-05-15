@@ -28,11 +28,32 @@ const Portfolio = () => {
 
           <hr className="featurette-divider"/>
 
+          <Project title = "Get Stuff Done"
+            href="https://marks-to-do.herokuapp.com/"
+            src={require("../images/todo.png")}
+            alt="Get Stuff Done Website"
+            imgleft>
+
+            <p>
+              Sign in and get stuff done with this to-do app.
+            </p>
+
+            <p>
+              Docker, Ruby on Rails, PostgreSQL, JavaScript, Devise, Bootstrap,
+              SASS, RSpec, and Capybara.
+              CI/CD implemented on <a href="https://semaphoreci.com/"
+              target="_blank" rel="noopener noreferrer" >Semaphore</a>. <a href="https://github.com/mark1ad/todo-app"
+              target="_blank" rel="noopener noreferrer">Github repository</a>.
+            </p>
+
+          </Project>
+
+          <hr className="featurette-divider"/>
+
           <Project title="Open Highway"
             href="https://open-highway.herokuapp.com/"
             src={require("../images/open-highway.png")}
-            alt="Open Highway Website"
-            imgleft>
+            alt="Open Highway Website" >
 
             <p>
               Want to visit all of the states? How about all the museums in your town? Open Highway lets you plan the ultimate road trip!
@@ -49,7 +70,8 @@ const Portfolio = () => {
           <Project title="Civilized Coffee"
             href="https://infinite-shelf-28534.herokuapp.com/"
             src={require("../images/civilized-coffee.png")}
-            alt="Open Highway Website">
+            alt="Open Highway Website"
+            imgleft>
 
             <p>
               Become part of the Civilized Coffee chain and become the sophisticated owner of a coffee shop. Create your own specialized drinks. Schedule live music and other events.
