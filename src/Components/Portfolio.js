@@ -26,13 +26,38 @@ const Portfolio = () => {
             </p>
           </Project>
 
+          <hr className="featurette-divider" />
+
+          <Project title="Colorado Personal Income"
+            href="http://co-income.herokuapp.com"
+            src={require("../images/co-income.png")}
+            alt="Colorado Personal Income Website"
+            imgleft>
+
+            <p>
+              View personal income data provided by the <a href="https://data.colorado.gov/Labor-Employment/Personal-Income-in-Colorado/2cpa-vbur" target="_blank" rel="noopener noreferrer">Colorado Information Marketplace</a>
+            </p>
+
+            <p>
+              You can view income for all counties in a single year or for all years available for a single county.
+            </p>
+
+            <p>
+              React, Redux, JavaScript, Boostrap, Enzyme, and chart.js.
+              Developed using TDD. CI/CD implemented
+              on <a href="https://semaphoreci.com/"
+              target="_blank" rel="noopener noreferrer" >Semaphore</a>. <a href="https://github.com/mark1ad/co-income"
+              target="_blank" rel="noopener noreferrer">Github repository</a>.
+            </p>
+
+          </Project>
+
           <hr className="featurette-divider"/>
 
           <Project title = "Get Stuff Done"
             href="https://marks-to-do.herokuapp.com/"
             src={require("../images/todo.png")}
-            alt="Get Stuff Done Website"
-            imgleft>
+            alt="Get Stuff Done Website" >
 
             <p>
               Sign in and get stuff done with this to-do app.
@@ -53,7 +78,8 @@ const Portfolio = () => {
           <Project title="Open Highway"
             href="https://open-highway.herokuapp.com/"
             src={require("../images/open-highway.png")}
-            alt="Open Highway Website" >
+            alt="Open Highway Website"
+            imgleft >
 
             <p>
               Want to visit all of the states? How about all the museums in your town? Open Highway lets you plan the ultimate road trip!
@@ -70,8 +96,7 @@ const Portfolio = () => {
           <Project title="Civilized Coffee"
             href="https://infinite-shelf-28534.herokuapp.com/"
             src={require("../images/civilized-coffee.png")}
-            alt="Open Highway Website"
-            imgleft>
+            alt="Open Highway Website">
 
             <p>
               Become part of the Civilized Coffee chain and become the sophisticated owner of a coffee shop. Create your own specialized drinks. Schedule live music and other events.
