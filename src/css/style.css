@@ -49,8 +49,13 @@ footer img {
   text-align: right;
   font-family: 'Nanum Gothic', sans-serif;
   color: #333;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
 
+@media only screen and (max-device-width: 1366px) {
+  #home {
+    background-attachment: scroll; } }
 #home-text {
   padding-top: 7vh; }
 
