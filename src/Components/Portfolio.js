@@ -35,7 +35,7 @@ const Portfolio = () => {
             imgleft>
 
             <p>
-              View personal income data provided by the <a href="https://data.colorado.gov/Labor-Employment/Personal-Income-in-Colorado/2cpa-vbur" target="_blank" rel="noopener noreferrer">Colorado Information Marketplace</a>
+              View personal income data provided by the <a href="https://data.colorado.gov/Labor-Employment/Personal-Income-in-Colorado/2cpa-vbur" target="_blank" rel="noopener noreferrer">Colorado Information Marketplace</a>.
             </p>
 
             <p>

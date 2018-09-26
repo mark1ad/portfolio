@@ -21,6 +21,7 @@ const About = () => {
             <Skill name="CSS3" icon="devicon-css3-plain" />
             <Skill name="SASS" icon="devicon-sass-plain" />
             <Skill name="PostgreSQL" icon="devicon-postgresql-plain" />
+            <Skill name="WordPress" icon="devicon-wordpress-plain" />
             <Skill name="Git/GitHub" icon="devicon-github-plain" />
             <Skill name="C/C++/C#" icon="devicon-csharp-plain" />
             <Skill name=".Net" icon="devicon-dot-net-plain" />
