@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        &copy; 2018 Mark De May
+        &copy; 2019 Mark De May
       </p>
     </footer>
 
