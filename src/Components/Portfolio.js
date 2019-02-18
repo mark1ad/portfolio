@@ -21,8 +21,10 @@ const Portfolio = () => {
               Visitors can view work by all photographers or visit a single photographer&lsquo;s page to see just their photos.
             </p>
             <p>
-              Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS. Photos are stored on <a href="http://cloudinary.com" target="_blank" rel="noopener noreferrer">Cloudinary</a>
-              . <a href="https://github.com/mark1ad/art_from_light_frontend" target="_blank" rel="noopener noreferrer">Client GitHub repository</a> and <a href="https://github.com/mark1ad/art_from_light_api" target="_blank" rel="noopener noreferrer">Server GitHub respository</a>.
+              Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS. Photos are stored on <a href="http://cloudinary.com" target="_blank" rel="noopener noreferrer">Cloudinary</a>.
+            </p>
+            <p>
+              <a className="github_link" href="https://github.com/mark1ad/art_from_light_frontend" target="_blank" rel="noopener noreferrer">Client GitHub repository</a> and <a className="github_link" href="https://github.com/mark1ad/art_from_light_api" target="_blank" rel="noopener noreferrer">Server GitHub respository</a>.
             </p>
           </Project>
 
@@ -46,7 +48,10 @@ const Portfolio = () => {
               React, Redux, JavaScript, Boostrap, Enzyme, and chart.js.
               Developed using TDD. CI/CD implemented
               on <a href="https://semaphoreci.com/"
-              target="_blank" rel="noopener noreferrer" >Semaphore</a>. <a href="https://github.com/mark1ad/co-income"
+              target="_blank" rel="noopener noreferrer" >Semaphore</a>.
+            </p>
+            <p>
+              <a className="github_link" href="https://github.com/mark1ad/co-income"
               target="_blank" rel="noopener noreferrer">Github repository</a>.
             </p>
 
@@ -67,7 +72,10 @@ const Portfolio = () => {
               Docker, Ruby on Rails, PostgreSQL, JavaScript, Devise, Bootstrap,
               SASS, RSpec, and Capybara.
               CI/CD implemented on <a href="https://semaphoreci.com/"
-              target="_blank" rel="noopener noreferrer" >Semaphore</a>. <a href="https://github.com/mark1ad/todo-app"
+              target="_blank" rel="noopener noreferrer" >Semaphore</a>.
+            </p>
+            <p>
+              <a className="github_link" href="https://github.com/mark1ad/todo-app"
               target="_blank" rel="noopener noreferrer">Github repository</a>.
             </p>
 
@@ -87,7 +95,9 @@ const Portfolio = () => {
 
             <p>
               Ruby on Rails, postgresql, AngularJS, Express.js, JavaScript, Postgresql and CSS/SASS.
-              <a href="https://github.com/mark1ad/roadtrip_app_frontend" target="_blank" rel="noopener noreferrer">Client GitHub respository</a> and <a href="https://github.com/mark1ad/roadtrip_app_api" target="_blank" rel="noopener noreferrer">Server GitHub respository</a>.
+            </p>
+            <p>
+              <a className="github_link" href="https://github.com/mark1ad/roadtrip_app_frontend" target="_blank" rel="noopener noreferrer">Client GitHub respository</a> and <a className="github_link" href="https://github.com/mark1ad/roadtrip_app_api" target="_blank" rel="noopener noreferrer">Server GitHub respository</a>.
             </p>
           </Project>
 
@@ -102,7 +112,10 @@ const Portfolio = () => {
               Become part of the Civilized Coffee chain and become the sophisticated owner of a coffee shop. Create your own specialized drinks. Schedule live music and other events.
             </p>
             <p>
-              Node.js, Mongoose, Mongo, Express, EJS and Bootstrap. <a href="https://github.com/mark1ad/coffeeshop" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
+              Node.js, Mongoose, Mongo, Express, EJS and Bootstrap.
+            </p>
+            <p>
+              <a className="github_link" href="https://github.com/mark1ad/coffeeshop" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
             </p>
           </Project>
         </div>
